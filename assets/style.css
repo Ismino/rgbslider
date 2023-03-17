@@ -12,19 +12,27 @@ input {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    font-size: 25px;
 
 }
 
 #display {
     display: flex;
     border: 2px solid #000;
-    background: #730aa2;
+    background: white ;
     height: 200px;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
+
 body {
     margin: 30px;
     padding: 10px;
+}
+#rgb-values {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }

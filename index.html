@@ -9,11 +9,15 @@
 </head>
 <body>
     <div class="picker">
-       Red <input type="range" min="0" max="255" step="1" id="red">
-       Green <input type="range" min="0" max="255" step="1" id="green">
-       Blue <input type="range" min="0" max="255" step="1" id="blue"> 
+        <label for="red"> Red</label>
+       <input type="range" min="0" max="255" step="1" id="red">
+       <label for="green">Green</label>
+       <input type="range" min="0" max="255" step="1" id="green">
+       <label for="blue">Blue</label>
+       <input type="range" min="0" max="255" step="1" id="blue"> 
     </div>
     <div id="display"></div>
+    <span id="rgb-values">0,0,0</span>
 
     <script src="main.js"></script>
 </body>
