@@ -14,10 +14,19 @@
         </a>
         <nav id="navbar">
             <li><a href="index.html">Home</a></li>
-            <li><a href=".picker">Rgb Slider</a></li>
+            <li><a href="#picker1">Rgb Slider</a></li>
         </nav>
     </header>
-    <div class="picker">
+    <div id="modal">
+        <div>
+            <h1>Please write your username</h1>
+        </div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" >
+          <button onclick="javascript:checkUsername();">Submit</button>
+          <p id="error">Username is required</p>
+    </div>
+    <div class="picker" id="picker1">
         <label for="red"> Red</label>
        <input type="range" min="0" max="255" step="1" id="red">
        <label for="green">Green</label>
@@ -26,7 +35,7 @@
        <input type="range" min="0" max="255" step="1" id="blue"> 
     </div>
     <div id="display"></div>
-    <span id="rgb-values">0,0,0</span>
+    <span id="rgb">0,0,0</span>
 
     <script src="main.js"></script>
 </body>

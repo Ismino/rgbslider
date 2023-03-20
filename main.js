@@ -1,5 +1,5 @@
 var input = document.querySelectorAll("input");
-var rgbValues = document.getElementById("rgb-values");
+var rgbValues = document.getElementById("rgb");
 
 for(var i = 0; i < input.length; i++){
     input[i].addEventListener("input", function(){
@@ -13,4 +13,12 @@ for(var i = 0; i < input.length; i++){
            rgbValues.textContent = red + "," + green + "," + blue;
 
     });
+}
+
+function checkUsername(){ 
+ var username = document.getElementById("username").value;
+ if (username == "")
+   document.getElementById("error").style.display = "block";
+   else 
+   document.getElementById("modal").style.display = "none"
 }
