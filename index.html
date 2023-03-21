@@ -27,13 +27,19 @@
           <p id="error">Username is required</p>
     </div>
     <div class="picker" id="picker1">
-        <label for="red"> Red</label>
+       <div>
+        <label for="red" id="red-label"> Red</label>
        <input type="range" min="0" max="255" step="1" id="red">
-       <label for="green">Green</label>
+       <label for="green" id="green-label">Green</label>
        <input type="range" min="0" max="255" step="1" id="green">
-       <label for="blue">Blue</label>
+       <label for="blue" id="blue-label">Blue</label>
        <input type="range" min="0" max="255" step="1" id="blue"> 
+       </div>
+       <div id="generate-box">
+
+       </div>
     </div>
+    
     <button id="generate-btn">Generate</button>
     <div id="display"></div>
     <span id="rgb">0,0,0</span>
