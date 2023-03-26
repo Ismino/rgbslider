@@ -17,15 +17,20 @@
             <li><a href="#picker1">Rgb Slider</a></li>
         </nav>
     </header>
-    <div id="modal">
+    <form id="modal" action="#">
         <div>
             <h1>Please write your username</h1>
         </div>
+        <div>
           <label for="username">Username:</label>
           <input type="text" id="username" >
-          <button onclick="javascript:checkUsername();">Submit</button>
+        </div>
+        <div>
+          <button id="save-btn" type="submit" value="submit">Submit</button>
           <p id="error">Username is required</p>
-    </div>
+          </div>
+    </form>
+   
     <div class="picker" id="picker1">
        <div>
         <label for="red" id="red-label"> Red</label>
@@ -36,11 +41,12 @@
        <input type="range" min="0" max="255" step="1" id="blue"> 
        </div>
        <div id="generate-box">
-
+        <div id="rgb-values"></div>
        </div>
     </div>
     
     <button id="generate-btn">Generate</button>
+    <button type="reset" id="reset-btn">Reset</button>
     <div id="display"></div>
     <span id="rgb">0,0,0</span>
 

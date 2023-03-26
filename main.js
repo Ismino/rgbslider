@@ -15,10 +15,50 @@ for(var i = 0; i < input.length; i++){
     });
 }
 
-function checkUsername(){ 
- var username = document.getElementById("username").value;
- if (username == "")
-   document.getElementById("error").style.display = "block";
-   else 
-   document.getElementById("modal").style.display = "none"
+const red = document.getElementById("red");
+const green = document.getElementById("green");
+const blue = document.getElementById("blue");
+const values = document.getElementById("rgb-values");
+const btn = document.getElementById("generate-btn")
+
+function update() {
+  const value1 = red.value;
+  const value2 = green.value;
+  const value3 = blue.value;
+ 
+  values.innerHTML= "Your value is:" + value1 + "," + value2 + "," + value3;
+ 
 }
+btn.addEventListener("click",update);
+
+const form = document.getElementById('modal');
+const usernameInput = document.getElementById('username');
+const saveBtn = document.getElementById('save-btn');
+const error = document.getElementById('error');
+const resultDiv = document.getElementById('result');
+const generateBox = document.getElementById('generate-box');
+
+saveBtn.addEventListener('click', function(e) {
+  e.preventDefault();
+  if (usernameInput.value.trim() === '') {
+    error.style.display = 'block';
+  } else {
+    error.style.display = 'none';
+
+    const generatedParagraph = document.createElement('div');
+    generatedParagraph.textContent = 'Welcome ' + usernameInput.value + ' choose your color on the slide to see the rgb value!';
+   
+    generateBox.prepend(generatedParagraph);
+   
+    form.style.display = 'none';
+    form.reset();
+  }
+});
+const resetBtn = document.getElementById("reset-btn");
+console.log("resetBtn")
+resetBtn.addEventListener("click", function() {
+  red.value = 0;
+  green.value = 0;
+  blue.value = 0;
+  values.innerHTML = "";
+});
