@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&display=swap');
-
+/*Styles for rgb slider and picker*/
 .picker {
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@
 }
 
 body {
-    margin: 30px;
+    margin: 80px 30px 30px;
     padding: 10px;
 }
 #rgb {
@@ -77,9 +77,12 @@ body {
 .picker label {
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
-
+/*Styles for header logo and navbar */
 header {
     display: flex;
     justify-content: space-between;
@@ -131,6 +134,7 @@ a {
 #navbar a:hover {
   border: 1px solid antiquewhite;}
 
+  /*Styles for modal and error message*/
 #modal {
     position: fixed;
     z-index: 1; 
@@ -147,7 +151,23 @@ a {
     display: none;
     color: red;
   }
-
+  #save-btn {
+    border: #000 1px solid;
+    border-radius: 30px;
+  }
+  #username-label {
+   font-family: 'open sans',sans-serif;
+  
+  }
+  #username {
+    border-radius: 20px;
+  
+  }
+  #username-h1 {
+    font-family: 'Dancing scrpit',cursive;
+    color: #A94064;
+  }
+/* Styles for generete button, reset button and generate box*/
   #generate-btn {
     display: flex;
     justify-content: center;
@@ -182,19 +202,36 @@ a {
     box-shadow: #A94064 2px 2px 10px;
     border: #000 1px solid;
   }
-#save-btn {
-  border: #000 1px solid;
-  border-radius: 30px;
-}
-#username-label {
- font-family: 'open sans',sans-serif;
+
+/* styles for smartphones */
+@media only screen and (max-width: 700px) {
+  header {
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    padding: 10px;
+
+  }
+  .picker {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
 
 }
-#username {
-  border-radius: 20px;
-
+#modal {
+  width: 90%;
+  max-width: 90%;
+  left: 5px;
+  top: 100px;
 }
-#username-h1 {
-  font-family: 'Dancing scrpit',cursive;
-  color: #A94064;
+.picker label {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

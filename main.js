@@ -1,4 +1,4 @@
-/*Code inspired by youtube tutorial, code for the rgb slider to work */
+/*Code inspired by youtube tutorial https://m.youtube.com/watch?v=-55GRq-hUyE, code for the rgb slider to work */
 
 var input = document.querySelectorAll("input");
 var rgbValues = document.getElementById("rgb");
