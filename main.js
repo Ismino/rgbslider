@@ -54,11 +54,3 @@ saveBtn.addEventListener('click', function(e) {
     form.reset();
   }
 });
-const resetBtn = document.getElementById("reset-btn");
-console.log("resetBtn")
-resetBtn.addEventListener("click", function() {
-  red.value = 0;
-  green.value = 0;
-  blue.value = 0;
-  values.innerHTML = "";
-});
