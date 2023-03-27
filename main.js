@@ -1,3 +1,5 @@
+/*Code inspired by youtube tutorial, code for the rgb slider to work */
+
 var input = document.querySelectorAll("input");
 var rgbValues = document.getElementById("rgb");
 
@@ -14,7 +16,7 @@ for(var i = 0; i < input.length; i++){
 
     });
 }
-
+/*Code for picking up all values and output a message to the user */ 
 const red = document.getElementById("red");
 const green = document.getElementById("green");
 const blue = document.getElementById("blue");
@@ -31,6 +33,7 @@ function update() {
 }
 btn.addEventListener("click",update);
 
+/*Code that pickes upp all the id's of the modal and puts them into function, it handels the error message and the message shoing up after clicking the button */
 const form = document.getElementById('modal');
 const usernameInput = document.getElementById('username');
 const saveBtn = document.getElementById('save-btn');
@@ -53,4 +56,14 @@ saveBtn.addEventListener('click', function(e) {
     form.style.display = 'none';
     form.reset();
   }
+});
+
+//* Code for reseting the values of rgb values,pickes up the id and changes the innerHTML to empty *//
+const resetBtn = document.getElementById("reset-btn");
+
+resetBtn.addEventListener("click", function() {
+  red.value = 0;
+  green.value = 0;
+  blue.value = 0;
+  values.innerHTML = "";
 });

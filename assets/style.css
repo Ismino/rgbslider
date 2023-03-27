@@ -2,6 +2,7 @@
 
 .picker {
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 500px;
     margin: 20px;
@@ -104,6 +105,12 @@ a {
     color: antiquewhite;
    
 }
+#navbar {
+  display: flex;
+  font-size: 100%;
+  margin-right: 20px;
+}
+
 #navbar li {
     display: flex;
     list-style-type: none;
@@ -111,6 +118,8 @@ a {
     color: antiquewhite;
     font-family: 'Dancing Script', cursive;
     display: flex;
+    line-height: 50px;
+    margin: 15px;
     
 }
 #navbar a {
@@ -119,6 +128,8 @@ a {
     font-family: 'Dancing Script', cursive;
     display: flex;
 }
+#navbar a:hover {
+  border: 1px solid antiquewhite;}
 
 #modal {
     position: fixed;

@@ -8,6 +8,7 @@
     <title>Rgb Slider</title>
 </head>
 <body>
+    <!--Header containing logo and navbar-->
     <header>
         <a href="index.html">
             <h1 id="logo">Rgb Color Slider</h1>
@@ -17,6 +18,7 @@
             <li><a href="#picker1">Rgb Slider</a></li>
         </nav>
     </header>
+    <!--Form field for the popup modal-->
     <form id="modal" action="#">
         <div>
             <h1 id="username-h1">Please write your username</h1>
@@ -30,7 +32,7 @@
           <p id="error">Username is required</p>
           </div>
     </form>
-   
+   <!--input range field for the rgb slider-->
     <div class="picker" id="picker1">
        <div>
         <label for="red" id="red-label"> Red</label>
@@ -44,11 +46,13 @@
         <div id="rgb-values"></div>
        </div>
     </div>
-    
+    <!--genereate button and reset button to generete and reset rgb value-->
     <button id="generate-btn">Generate</button>
     <button type="reset" id="reset-btn">Reset</button>
+    <!--display div for displaying the color in and also a span for the values to be shown-->
     <div id="display"></div>
     <span id="rgb">0,0,0</span>
+    <!--footer and script source-->
     <footer>
         
     </footer>
