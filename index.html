@@ -33,7 +33,7 @@
           </div>
     </form>
    <!--input range field for the rgb slider-->
-    <div class="picker" id="picker1">
+    <section class="picker" id="picker1">
        <div>
         <label for="red" id="red-label"> Red</label>
        <input type="range" min="0" max="255" step="1" id="red">
@@ -45,10 +45,12 @@
        <div id="generate-box">
         <div id="rgb-values"></div>
        </div>
-    </div>
+    </section>
     <!--genereate button and reset button to generete and reset rgb value-->
+    <div id="container-btn">
     <button id="generate-btn">Generate</button>
     <button type="reset" id="reset-btn">Reset</button>
+     </div>
     <!--display div for displaying the color in and also a span for the values to be shown-->
     <div id="display"></div>
     <span id="rgb">0,0,0</span>

@@ -168,11 +168,17 @@ a {
     color: #A94064;
   }
 /* Styles for generete button, reset button and generate box*/
+#container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
   #generate-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     border-radius: 30px;
     height: 30px;
     margin: 10px;
@@ -194,7 +200,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     border-radius: 30px;
     height: 30px;
     margin: 10px;
@@ -225,6 +231,7 @@ a {
 #modal {
   width: 90%;
   max-width: 90%;
+  height: 50%;
   left: 5px;
   top: 100px;
 }
