@@ -2,7 +2,7 @@
 
 The website is designed to let the user pick and choose colors with a rgb slider. The user can generete the color chooesen and see the rgb value to use in their code.
 
-![Screenshot]()
+![Multidevice](assets/image/multidevice.png)
 
 
 ## Features
@@ -16,6 +16,7 @@ __Pop up modal__
 - Pop up modal for the user the put in their username.
 - This part is requiered and if the user dont fullfil to fill in the username a text shows with the message "Username is required".
 - After the user filled in the username the modal disapears.
+
 ![Popupmodal](assets/image/modal.png)
 
 __The logo__
@@ -68,7 +69,7 @@ __The color display__
 - I tested the RGB site on lighthouse for both desktop's and phones and it got very god results, the site works good. 
 - The first picture is from lighthouse when testing the page for Desktops.
 - The second picture is from lighthouse when testing the page for Phones.
- 
+
 ![LighthouseDesktop](assets/image/lighthousergb.png)
 ![LighthousePhone](assets/image/lighthousergb2.png)
 
