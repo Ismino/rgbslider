@@ -25,14 +25,14 @@ __The logo__
 
 ![Logo](assets/image/logo.png)
 
-- __Navigation bar__
+__Navigation bar__
 
 - The navigation bar is simpel and has two choises. 
 - By the help of the nav bar the user can simple navigate through the site.
 
 ![Navigation](assets/image/navbar.png)
 
-- __The Rgb slider section__
+__The Rgb slider section__
 
 - The main function of the site is to choose and generate color values with RBG, therefore there is a slider where the user can slide to get an color displayed. 
 - The color slider is made simple for the user to slide through.
