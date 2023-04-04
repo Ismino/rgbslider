@@ -1,6 +1,6 @@
 ## RGB color slider website 
 
-The website is designed to let the user pick and choose colors with a rgb slider. The user can generete the color chooesen and see the rgb value to use in their code.
+The website is designed to let the user pick and choose colors with a rgb slider. The user can generete the color choosen and see the rgb value to use in their code.
 
 ![Multidevice](assets/image/multidevice.png)
 
