@@ -65,7 +65,12 @@ __The color display__
 
 ## Testing
 
-![Screenshot]()
+- I tested the RGB site on lighthouse for both desktop's and phones and it got very god results, the site works good. 
+- The first picture is from lighthouse when testing the page for Desktops.
+- The second picture is from lighthouse when testing the page for Phones.
+ 
+![LighthouseDesktop](assets/image/lighthousergb.png)
+![LighthousePhone](assets/image/lighthousergb2.png)
 
 
 ### Validator testing 
