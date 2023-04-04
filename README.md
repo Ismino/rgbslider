@@ -2,6 +2,9 @@
 
 The website is designed to let the user pick and choose colors with a rgb slider. The user can generete the color chooesen and see the rgb value to use in their code.
 
+![Screenshot]()
+
+
 ## Features
 
 The website is aimed at professionals looking for rgb colors to work with. For exampel web designers or regular designers. When loading the page the user fills in their username and after that they see a welcome "" choose your color on the slide to see your rgb value. After choosing they can also reset the value and choose a new color. This way they can work with colors on a professional level. 
@@ -13,14 +16,20 @@ __Pop up modal__
 - Pop up modal for the user the put in their username.
 - This part is requiered and if the user dont fullfil to fill in the username a text shows with the message "Username is required".
 - After the user filled in the username the modal disapears.
+![Popupmodal](assets/image/modal.png)
 
+__The logo__
+
+- Simple logo with nice font. 
+
+![Logo](assets/image/logo.png)
 
 - __Navigation bar__
 
 - The navigation bar is simpel and has two choises. 
 - By the help of the nav bar the user can simple navigate through the site.
 
-![Navigation](style/)
+![Navigation](assets/image/navbar.png)
 
 - __The Rgb slider section__
 
@@ -29,6 +38,7 @@ __Pop up modal__
 - The color slide has three range slides, Red, Green and blue.
 - When combining the three diffrent colors a color is displayn. 
 
+![Slider](assets/image/slider.png)
 
 __The generate and reset button__
 
@@ -36,6 +46,7 @@ __The generate and reset button__
 - The generate button generates the rgb value of the color choosen and shows the value in a tablet.
 - The user can also reset the value by clicking the reset button.
 
+![Button](assets/image/btn.png)
 
 __The welcome and value tablet__
 
@@ -43,12 +54,19 @@ __The welcome and value tablet__
 - Here the user can also see a saved rgb value code after clicking the generate button.
 - The tablet is formed simple for the user to user to understand and use.
 
+![Tablet](assets/image/welcome.png)
+
 __The color display__
 
 - The color display is where the user see's the color after/when sliding throght the rgb slider.
 - The display is big and simple so the user can focus on choosing the color they want and likes.
 
+![Display](assets/image/display.png)
+
 ## Testing
+
+![Screenshot]()
+
 
 ### Validator testing 
 
