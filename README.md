@@ -90,6 +90,8 @@ __The color display__
 
 - For the deployment process i went to github and to Rgb slider repositry and then to settings and pages. On pages i deployed the project and after a few secunds it went online.
 
+https://ismino.github.io/rgbslider/
+
 
 ## Credits 
 
